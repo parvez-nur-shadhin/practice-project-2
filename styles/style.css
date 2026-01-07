@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+/* Shared Style  */
+
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 35px;
+    color: white;
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 35px;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main Style  */
+header {
+    margin: 0px auto;
+    background: url(../assets/header_bg.png), url(../assets/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, 23px 38px;
+}
+header .logo h1 {
+    font-size: 45px;
+    font-weight: 800px;
+    margin-left: 71px;
+}
+header .logo span {
+    color: #FD6E0A;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 130px;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+header nav ul li {
+    color: #474747;
+    font-size: 20px;
+}
+#banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 131px 38px 0px 230px;
+    
+}
+#banner .banner-image img {
+    width: 584px;
+    height: 676px;
+    vertical-align: middle;
+}
+#banner .section-heading h2 {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600px;
+}
+#banner .section-heading h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-top: 5px;
+}
+#banner .section-heading p {
+    font-size: 18px;
+    color: #757575;
+    font-weight: normal;
+    margin-top: 20px;
+}
+#banner .section-heading button {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+#about-me {
+    max-width: 1600px;
+    margin: 0px auto;
+    margin-top: 65px;
+    border: none;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+}
+#about-me .section-heading h1 {
+    padding-top: 130px;
+}
+#about-me .about-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-top: 30px;
+}
