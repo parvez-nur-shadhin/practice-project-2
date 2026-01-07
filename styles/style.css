@@ -98,7 +98,7 @@ header nav ul li {
     margin-right: 30px;
 }
 #about-me {
-    max-width: 1600px;
+    max-width: 1140px;
     width: 71%;
     margin: 0px auto;
     margin-top: 65px;
@@ -141,4 +141,52 @@ header nav ul li {
 .a-card {
     padding-bottom: 130px;
     justify-content: center;
+}
+#what-i-do {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 130px;
+}
+
+#what-i-do .head-section p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-top: 30px;
+}
+#what-i-do .skills {
+    display: flex;
+    gap: 24px;
+}
+#what-i-do .skills .skill-card {
+    text-align: left;
+    max-width: 267px;
+    max-height: 377px;
+    margin-top:130px;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-right: 33px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.254);
+}
+#what-i-do .skills .skill-card img {
+    width: 44px;
+    height: 44px;
+}
+#what-i-do .skills .skill-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#what-i-do .skills .skill-card p {
+    font-size: 16px;
+    color: #757575;
+    margin-top: 30px;
+    line-height: 28px;
 }
