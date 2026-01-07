@@ -99,6 +99,7 @@ header nav ul li {
 }
 #about-me {
     max-width: 1600px;
+    width: 71%;
     margin: 0px auto;
     margin-top: 65px;
     border: none;
@@ -109,9 +110,35 @@ header nav ul li {
 #about-me .section-heading h1 {
     padding-top: 130px;
 }
+#about-me .about-content {
+    max-width: 827px;
+    margin: 0px auto;
+}
 #about-me .about-content p {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     margin-top: 30px;
+}
+#about-me .about-content .about-cards .a-card{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.a-heading {
+    text-align: center;
+}
+.a-heading p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.a-heading h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+.a-card {
+    padding-bottom: 130px;
+    justify-content: center;
 }
