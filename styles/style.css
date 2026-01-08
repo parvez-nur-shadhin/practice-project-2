@@ -73,7 +73,7 @@ header nav ul li {
 }
 #banner .banner-image img {
     width: 584px;
-    height: 676px;
+    height: 750px;
     vertical-align: middle;
 }
 #banner .section-heading h2 {
@@ -190,6 +190,47 @@ header nav ul li {
     color: #757575;
     margin-top: 30px;
     line-height: 28px;
+}
+#resume {
+    max-width: 71%;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+#resume .resume-div {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 24px;
+    padding-top: 113px;
+}
+#resume .section-heading h1 {
+    padding-top: 130px;
+}
+.resume-card h3{
+    padding-top: 30px;
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-card h4 {
+    padding-top: 10px;
+    color: #757575;
+    font-size: 20px;
+}
+.resume-card h5 {
+    padding-top: 10px;
+    color: #757575;
+    font-size: 15px;
+}
+.resume-card p {
+    padding-top: 10px;
+    color: #474747;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+#resume button {
+    margin-top: 30px;
 }
 footer {
     display: flex;
